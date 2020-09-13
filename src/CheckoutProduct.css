@@ -16,6 +16,12 @@
   color: #111;
 }
 
+.checkoutProduct__info>button:hover{
+  transform: scale(1.02);
+  transition: transform 2s;
+  color: red;
+}
+
 .checkoutProduct__rating {
   display: flex;
 }
