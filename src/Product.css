@@ -40,10 +40,10 @@
   color: #111;
 }
 
-.product>button:hover{
+.product > button:hover {
   transform: scale(1.02);
   transition: transform 2s;
-  color: red;
+  color: rgb(0, 190, 0);
   font-weight: 500;
 }
 
