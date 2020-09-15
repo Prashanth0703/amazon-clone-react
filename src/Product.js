@@ -20,7 +20,7 @@ function Product({ id, title, image, price, rating }) {
     });
   };
   return (
-    <div className="product">
+    <div key={id} className="product">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price">
@@ -31,7 +31,7 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>⭐</p>
+              <p >⭐</p>
             ))}
         </div>
       </div>
